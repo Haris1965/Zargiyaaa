@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌹 A Digital Rose For You</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <!-- Profile picture section -->
+            <div class="profile-container">
+                <div class="profile-pic">
+                    <!-- CHANGE THIS: Replace "her-photo.jpg" with your actual photo filename -->
+                    <img src="her-photo.jpg" 
+                         alt="My Beautiful Love" 
+                         class="profile-image"
+                         id="profile-image">
+                    <div class="profile-ring"></div>
+                    <div class="profile-heart">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="profile-overlay">
+                    <span class="profile-text">My Love ❤️</span>
+                </div>
+            </div>
+            
+            <h1><i class="fas fa-heart"></i> FOR MY THEODORE <i class="fas fa-heart"></i></h1>
+            <p class="subtitle">Distance means so little when someone means so much  ❤️</p>
+        </header>
+
+        <div class="main-content">
+            <div class="flower-container">
+                <div class="rose">
+                    <div class="petals">
+                        <div class="petal p1"></div>
+                        <div class="petal p2"></div>
+                        <div class="petal p3"></div>
+                        <div class="petal p4"></div>
+                        <div class="petal p5"></div>
+                        <div class="petal p6"></div>
+                        <div class="petal p7"></div>
+                        <div class="petal p8"></div>
+                    </div>
+                    <div class="stem"></div>
+                    <div class="leaf leaf1"></div>
+                    <div class="leaf leaf2"></div>
+                    <div class="thorns">
+                        <div class="thorn t1"></div>
+                        <div class="thorn t2"></div>
+                        <div class="thorn t3"></div>
+                    </div>
+                </div>
+                <div class="sparkle s1"></div>
+                <div class="sparkle s2"></div>
+                <div class="sparkle s3"></div>
+                <div class="location-tags">
+                    <div class="location pakistan">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Pakistan</span>
+                    </div>
+                    <div class="location hongkong">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Hong Kong</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-box">
+                <div class="message-header">
+                    <i class="fas fa-envelope-open-heart"></i>
+                    <h2>To The One Who Holds My Heart: Lishbah 💝 </h2>
+                </div>
+                <div class="message-content">
+                    <div class="message-text">
+                        <p class="message-line">My most kind hearted khanum,</p>
+                        
+                        <p class="message-line">They say absence makes the heart grow fonder, but mine was already full of you. Now it just overflows.</p>
+                        
+                        <p class="message-line">When I think about blessings, I think about you twice - To the girl who is my everything: you hold a place in my heart that no one has ever touched. You are closer to me than my own heartbeat.</p>
+                        
+                        <p class="message-line">Wherever you go, whatever you do, please stay safe and protected. May Allah shield you from every buri nazar and surround you with positivity and peace.</p>
+                        
+                        <p class="message-line">This rose may be digital, but my care for you is very, very real.</p>
+                        
+                        <div class="signature">
+                            <p>With all my Care,</p>
+                            <p>Always yours,</p>
+                            <p class="name">Haris</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hearts-divider">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="special-section">
+            <div class="quran-verse">
+                <i class="fas fa-star-and-crescent"></i>
+                <p>" لَئِن شَكَرْتُمْ لَأَزِیدَنَّكُمْ : If you are grateful, I will surely increase you ."</p>
+                <p class="verse-ref">[Quran 14:7]</p>
+            </div>
+        </div>
+
+        <div class="interactive-section">
+            <div class="controls">
+                <h3><i class="fas fa-magic"></i> Customize Your Rose</h3>
+                <div class="color-controls">
+                    <button id="red-rose" class="color-btn active" data-color="#ff6b8b">Red Rose</button>
+                    <button id="pink-rose" class="color-btn" data-color="#ff9ebb">Pink Rose</button>
+                    <button id="white-rose" class="color-btn" data-color="#ffffff">White Rose</button>
+                    <button id="purple-rose" class="color-btn" data-color="#d8b4fe">Purple Rose</button>
+                </div>
+                <div class="animation-controls">
+                    <button id="bloom-btn"><i class="fas fa-expand"></i> Bloom Rose</button>
+                    <button id="reset-btn"><i class="fas fa-redo"></i> Reset</button>
+                    <button id="love-btn"><i class="fas fa-heart"></i> Send Love</button>
+                </div>
+            </div>
+            
+            <div class="distance-counter">
+                <div class="counter-box">
+                    <i class="fas fa-plane"></i>
+                    <div class="counter-text">
+                        <span id="distance-km">3,841</span>
+                        <small>Kilometers Apart</small>
+                    </div>
+                </div>
+                <div class="counter-box">
+                    <i class="far fa-clock"></i>
+                    <div class="counter-text">
+                        <span id="love-percent">24/7</span>
+                        <small>Thinking of You</small>
+                    </div>
+                </div>
+                <div class="counter-box">
+                    <i class="fas fa-heartbeat"></i>
+                    <div class="counter-text">
+                        <span id="heartbeats">∞</span>
+                        <small>Heartbeats for You</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Made with <i class="fas fa-heart heartbeat"></i> from Pakistan to Hong Kong</p>
+            <p class="footer-note">This digital rose will never wilt • Click buttons to interact • Refresh page to see it bloom again</p>
+            <div class="footer-icons">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+              </html>
